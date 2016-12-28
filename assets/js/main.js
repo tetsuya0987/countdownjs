@@ -115,6 +115,6 @@ _CountDown.prototype = {
         path = self.pathSet();
         clearInterval(self.timerId);
         $('countdown').remove();
-        $('.text').append('')
+        $('.text').append('ENDED')
     }
 };
